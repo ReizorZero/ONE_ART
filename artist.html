@@ -50,19 +50,29 @@
         </nav>
     </header>
 
-    <main class="page">
+    <main class="page" style="padding-left: 20px;">
         <section class="artist">
-            <img src="img/anna.jpg" alt="" class="artist__photo">
+            <div class="artist__photo">
+                <img src="img/anna_1.jpg" alt="" class="artist__photo-image">
+            </div>
             <div class="artist__info">
-                <p class="artist__name">Anna Molodchenko</p>
-                <p class="artist__field">Commercial 3D Artist/Illustrator</p>
+                <div class="artist__info-block">
+                    <h1 class="artist__name">Anna Molodchenko</h1>
+                    <p class="artist__field">Commercial 3D Artist/Illustrator</p>
+                </div>
             </div>
             <div class="artist__about">
-                <p class="artist__title">Hello, I'm Anna!</p>
-                <p class="artist__text">Nice to meet you! I'm a 3D-artist and illustrator. I create models, character
-                    sprites, objects and locations in 3Ds Max, Maya, Cinema4d. I'm also experienced with oil painting.
-                    I'm proud of having a grade with distinction at an arts school.</p>
-                <button class="artist__contact-btn">Contact</button>
+                <div class="artist__about-block">
+                    <h2 class="artist__title">Hello, I'm Anna!</h2>
+                    <p class="artist__text">Nice to meet you! I'm a 3D-artist and illustrator. I create models,
+                        character
+                        sprites, objects and locations in 3Ds Max, Maya, Cinema4d. I'm also experienced with oil
+                        painting.
+                        I'm proud of having a grade with distinction at an arts school.</p>
+                </div>
+                <div class="artist__contact">
+                    <button class="artist__contact-btn">Contact</button>
+                </div>
             </div>
         </section>
 
@@ -73,7 +83,7 @@
         </section>
 
         <section class="news">
-            <p class="title">Goods</p>
+            <h2 class="title">Goods</h2>
             <div class="news-row">
                 <div class="news-item" style="background-image: url('img/work_1.jpg');">
                     <div class="news-item__title">
@@ -158,87 +168,87 @@
             </div>
 
             <div class="news-row" id="row-id">
-                    <div class="news-item" style="background-image: url('img/work_5.jpg');">
-                        <div class="news-item__title">
-                            <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
-                            <button class="news-item__bookmark-btn">
-                                <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
-                            </button>
-                        </div>
-                        <div class="news-item__subtitle">
-                            <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Nemo mollitia praesentium ratione.</p>
-                        </div>
-                        <div class="news-item__price">
-                            <p class="news-item__news-item__price-text">
-                                USD
-                                <span class="news-item__news-item__price-text_accent">
-                                    300,00
-                                </span>
-                            </p>
-                        </div>
+                <div class="news-item" style="background-image: url('img/work_5.jpg');">
+                    <div class="news-item__title">
+                        <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
+                        <button class="news-item__bookmark-btn">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
+                        </button>
                     </div>
-                    <div class="news-item" style="background-image: url('img/work_6.jpg');">
-                        <div class="news-item__title">
-                            <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
-                            <button class="news-item__bookmark-btn">
-                                <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
-                            </button>
-                        </div>
-                        <div class="news-item__subtitle">
-                            <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Nemo mollitia praesentium ratione.</p>
-                        </div>
-                        <div class="news-item__price">
-                            <p class="news-item__news-item__price-text">
-                                USD
-                                <span class="news-item__news-item__price-text_accent">
-                                    300,00
-                                </span>
-                            </p>
-                        </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Nemo mollitia praesentium ratione.</p>
                     </div>
-                    <div class="news-item" style="background-image: url('img/work_7.jpg');">
-                        <div class="news-item__title">
-                            <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
-                            <button class="news-item__bookmark-btn">
-                                <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
-                            </button>
-                        </div>
-                        <div class="news-item__subtitle">
-                            <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Nemo mollitia praesentium ratione.</p>
-                        </div>
-                        <div class="news-item__price">
-                            <p class="news-item__news-item__price-text">
-                                USD
-                                <span class="news-item__news-item__price-text_accent">
-                                    300,00
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="news-item" style="visibility: hidden;">
-                        <div class="news-item__title">
-                            <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
-                            <button class="news-item__bookmark-btn">
-                                <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
-                            </button>
-                        </div>
-                        <div class="news-item__subtitle">
-                            <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Nemo mollitia praesentium ratione.</p>
-                        </div>
-                        <div class="news-item__price">
-                            <p class="news-item__news-item__price-text">
-                                USD
-                                <span class="news-item__news-item__price-text_accent">
-                                    300,00
-                                </span>
-                            </p>
-                        </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                300,00
+                            </span>
+                        </p>
                     </div>
                 </div>
+                <div class="news-item" style="background-image: url('img/work_6.jpg');">
+                    <div class="news-item__title">
+                        <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
+                        <button class="news-item__bookmark-btn">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Nemo mollitia praesentium ratione.</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                300,00
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="news-item" style="background-image: url('img/work_7.jpg');">
+                    <div class="news-item__title">
+                        <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
+                        <button class="news-item__bookmark-btn">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Nemo mollitia praesentium ratione.</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                300,00
+                            </span>
+                        </p>
+                    </div>
+                </div>
+                <div class="news-item" style="visibility: hidden;">
+                    <div class="news-item__title">
+                        <p class="news-item__title-text">Lorem ipsum dolor sit amet.</p>
+                        <button class="news-item__bookmark-btn">
+                            <img src="img/bookmark-icon.svg" alt="" class="news-item__bookmark-icon">
+                        </button>
+                    </div>
+                    <div class="news-item__subtitle">
+                        <p class="news-item__subtitle-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Nemo mollitia praesentium ratione.</p>
+                    </div>
+                    <div class="news-item__price">
+                        <p class="news-item__news-item__price-text">
+                            USD
+                            <span class="news-item__news-item__price-text_accent">
+                                300,00
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
 
             <div class="more">
                 <button class="more-btn" onclick="document.getElementById('row-id').style.display='flex'; 
