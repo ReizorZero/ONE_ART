@@ -96,23 +96,69 @@
 .menu__list-link:hover {
     color: var(--basic-blue);
 }
-.menu__list-link_active {
-    color: var(--basic-blue);
-}
 
-.title-section {
+.user {
     width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
-.title {
-    text-align: center;
+.user-info {
+    width: 30%;
+    padding: 60px;
 }
-.subtitle {
-    text-align: center;
+.user-info__photo {
+
 }
-/* select block */
+.user-info__name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    /* text-align: center; */
+    padding-left: 10px;
+}
+.user-info__country {}
+
+
+.user-support {
+    width: 70%;
+}
+.user-support__theme-img {}
+.user-support__support {}
+.user-support__supportbar {
+    width: 80%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--basic-black);
+}
+.user-support__supportline {
+    width: 60%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--basic-blue);
+}
+.user-support__additional-info {}
+.user-support__email {}
+.user-support__location {}
 
 .news {
     width: 100%;
+}
+.title {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.title__text {
+    padding: 0px 0px 0px 32px;
+}
+.title__image {
+    width: 14px;
+    margin: 0px 10px;
+    /* height: 25px; */
+}
+.title__saved-n {
+    margin-left: 87%;
 }
 .news-row {
     width: 100%;
@@ -124,8 +170,8 @@
     background-color: grey;
     margin: 49px 30px;
     background-position: top;
-    background-size: contain;
-    /* background-size: auto; */
+    /* background-size: contain; */
+    background-size: auto;
     background-repeat: no-repeat;
     padding-top: 150px;
 }
@@ -137,7 +183,6 @@
     justify-content: space-between;
     align-content: flex-start;
     padding: 20px;
-    /* padding: 20px 0px 0px 0px; */
 }
 .news-item__title-text {
     font-style: normal;
@@ -161,7 +206,7 @@
     background-color: var(--basic-white);
 }
 .news-item__subtitle-text {
-    padding: 0px 20px 20px 20px;
+    padding: 20px;
 }
 .news-item__price {
     width: 100%;

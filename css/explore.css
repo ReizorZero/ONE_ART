@@ -12,7 +12,7 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     width: 400px;
 }
 .progressbar__min {
@@ -94,6 +94,9 @@
     color: var(--basic-black);
 }
 .menu__list-link:hover {
+    color: var(--basic-blue);
+}
+.menu__list-link_active {
     color: var(--basic-blue);
 }
 
