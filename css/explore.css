@@ -1,0 +1,216 @@
+:root {
+    --basic-white: #FFFFFF;
+    --basic-light-grey: #DBDBDB;
+    --basic-grey: #A8A8A8;
+    --basic-black: #303030;
+    --basic-blue: #008DE0;
+}
+
+/* HEADER  */
+
+.progressbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+}
+.progressbar__min {
+    padding: 0px 10px;
+}
+.progressbar__bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--basic-black);
+}
+.progressbar__progressline {
+    width: 60%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--basic-blue);
+}
+.progressbar__max {
+    padding: 0px 10px;
+}
+.buttons-group {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.searchbar {
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+}
+.searchbar__icon {
+    width: 19px;
+    height: 19px;
+}
+.login-btn {
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+}
+.login-btn__icon {
+    width: 24px;
+    height: 24px;
+}
+.switch-btn {
+    border: none;
+    background-color: transparent;
+    margin: 5px;
+}
+.switch-btn__icon  {
+    width: 34px;
+    height: 19px;
+}
+
+.menu {
+    /* width: 33.3%; */
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu__list {
+    list-style: inside;
+    list-style-type: none;
+    /* padding: 0px 20px; */
+    padding-left: 60px;
+}
+.menu__list-item {
+    display: inline;
+    padding: 0px 5px;
+    padding: 0px 30px 0px 30px;
+}
+.menu__list-link {
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 18px;
+    line-height: 40px; */
+    text-decoration: none;
+    color: var(--basic-black);
+}
+.menu__list-link:hover {
+    color: var(--basic-blue);
+}
+
+.title-section {
+    width: 100%;
+}
+.title {
+    text-align: center;
+}
+.subtitle {
+    text-align: center;
+}
+/* select block */
+
+.news {
+    width: 100%;
+}
+.news-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.news-item {
+    width: calc(100vw / 4);
+    background-color: #008DE0;
+    margin: 49px 30px;
+    /* background-image: url('../img/news_1.png'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* bad style :( */
+.news-item .news-item__date {
+    background-color: var(--basic-white);
+    margin-bottom: 180px;
+}
+.news-item__date-text {
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 18px;
+    line-height: 24px; */
+}
+.news-item__date-text_accent {
+    color: var(--basic-blue);
+}
+.news-item__title {
+    width: 100%;;
+    background-color: var(--basic-white);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding: 20px;
+}
+.news-item__title-text {
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 32px;
+    line-height: 38px; */
+}
+.news-item__bookmark-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.news-item__bookmark-btn:hover {
+    opacity: 0.7;
+}
+.news-item__bookmark-icon {
+    width: 17px;
+    height: 25px;
+}
+.news-item__subtitle {
+    background-color: var(--basic-white);
+}
+.news-item__subtitle-text {
+    padding: 20px;
+}
+
+.news-row_major {}
+.news-item_major {
+    width: calc(100vw / 2);
+}
+.news-item_major-square {
+    width: calc(100vw / 4);
+}
+.news-item_major .news-item__date {
+    margin-bottom: 305px;
+}
+.news-item_major-square .news-item__date {
+    margin-bottom: 305px;
+}
+                            
+.go-to {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.go-to-group {
+}
+.go-to-group__item {
+    background-color: var(--basic-white);
+    color: var(--basic-black);
+    margin: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.go-to-group__item:hover {
+    padding: 8px 13px;
+    border: 2px solid var(--basic-blue);
+}
+.go-to-group__item_active {
+    background-color: var(--basic-blue);
+    color: var(--basic-white);
+}
+.go-to-group__item-dots {
+
+}
