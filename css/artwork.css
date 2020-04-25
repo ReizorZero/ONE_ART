@@ -95,3 +95,31 @@
 .menu__list-link:hover {
     color: var(--basic-blue);
 }
+
+.artwork-photo {
+    width: 72%;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+.artwork-photo__photo {
+    width: 95%;
+}
+
+.artwork-info {
+    width: 28%;
+    padding-top: 3%;
+    padding-right: 2%;
+}
+.artwork-info__author {}
+.artwork-info__name {}
+
+.buy {}
+.buy__price {}
+.buy__price-accent {}
+.buy__buy-btn {}
+.buy__buy-icon {}
+.buy__buy-text {}
+
+.add {}
+.add__title {}
+.add__text {}
