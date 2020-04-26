@@ -121,8 +121,9 @@
     display: flex;
     display: -webkit-flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 38%;
     /* padding-top: 22px; */
 }
 .hr-line__line {
@@ -136,7 +137,7 @@
     display: flex;
     display: -webkit-flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 .number__text {
@@ -145,6 +146,7 @@
     font-size: 46px;
     /* font-size: 30px; */
     line-height: 40px;
+    padding-bottom: 126%;
 }
 
 /* CENTER PANEL */

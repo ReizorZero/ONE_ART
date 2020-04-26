@@ -25,7 +25,7 @@
     background-color: var(--basic-black);
 }
 .progressbar__progressline {
-    width: 60%;
+    width: 25%;
     height: 5px;
     border-radius: 10px;
     background-color: var(--basic-blue);
@@ -44,6 +44,9 @@
     background-color: transparent;
     margin: 5px;
 }
+.searchbar:hover {
+    opacity: 0.7;
+}
 .searchbar__icon {
     width: 19px;
     height: 19px;
@@ -52,6 +55,9 @@
     border: none;
     background-color: transparent;
     margin: 5px;
+}
+.login-btn:hover {
+    opacity: 0.7;
 }
 .login-btn__icon {
     width: 24px;
