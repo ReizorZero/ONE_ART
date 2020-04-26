@@ -9,6 +9,69 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/artist.css">
+
+    <style>
+        .grid {
+            /* background-color: lime; */
+            padding: 40px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 800px;
+            display: grid;
+            grid-template-areas:
+                'grid__artist grid__text-left grid__text-right grid__text-right'
+                'grid__work-left grid__work-center grid__work-center grid__work-center'
+            ;
+        }
+
+        .grid>div {
+            padding: 20px 10px 10px 10px;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+        }
+
+        .grid__artist {
+            grid-area: grid__artist;
+            /* background-color: black; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid__text-left {
+            grid-area: grid__text-left;
+            /* background-color: green; */
+            justify-content: center;
+            align-items: center;
+            margin: 0px 50px;
+        }
+
+        .grid__text-right {
+            grid-area: grid__text-right;
+            /* background-color: grey; */
+        }
+
+        .grid__work-left {
+            grid-area: grid__work-left;
+            /* background-color: orange; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid__work-center {
+            grid-area: grid__work-center;
+            /* background-color: salmon; */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .grid__work-right {
+            grid-area: grid__work-right;
+            /* background-color: crimson; */
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,7 +118,7 @@
     </header>
 
     <main class="page" style="padding-left: 20px;">
-        <section class="artist">
+        <!-- <section class="artist">
             <div class="artist__photo">
                 <img src="img/anna_4.jpg" alt="" class="artist__photo-image">
             </div>
@@ -88,7 +151,44 @@
             style="background-image: url('img/work_8.jpg');"></div>
             <div class="works__item works__item_square"
             style="background-image: url('img/work_10.jpg');"></div>
-        </section>
+        </section> -->
+        <div class="grid">
+            <div class="grid__artist">
+                <img src="img/anna_4.jpg" alt="" style="width: 100%;">
+            </div>
+            <div class="grid__text-left">
+                <div class="artist__info-block">
+                    <h3 class="artist__name">Anna Molodchenko</h3>
+                    <p class="artist__field">Commercial 3D Artist<br>Illustrator</p>
+                </div>
+            </div>
+            <div class="grid__text-right">
+                <div class="artist__about">
+                    <div class="artist__about-block">
+                        <p class="artist__title" style="padding: 20px 20px 10px 20px; font-size: 22px;
+                        font-weight: bold;">Hello, I'm Anna!</p>
+                        <p class="artist__text" style="padding: 0px 20px 10px 20px;">Nice to meet you! I'm a 3D-artist and illustrator. I create models,
+                            character
+                            sprites, objects and locations in 3Ds Max, Maya, Cinema4d. I'm also experienced with oil
+                            painting.
+                            I'm proud of having a grade with distinction at an arts school.
+                            Check out my works!</p>
+                    </div>
+                    <div class="artist__contact">
+                        <button class="artist__contact-btn">Contact</button>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__work-left">
+                <div class="works__item works__item_square" style="background-image: url('img/work_9.jpg'); width: 100%;"></div>
+            </div>
+            <div class="grid__work-center">
+                <div class="works__item" style="background-image: url('img/work_8.jpg'); width: 100%;"></div>
+            </div>
+            <!-- <div class="grid__work-right">
+                    <div class="works__item works__item_square" style="background-image: url('img/work_9.jpg'); width: 100%;"></div>
+            </div> -->
+        </div>
 
         <section class="news">
             <h2 class="title">Goods</h2>
@@ -120,7 +220,8 @@
                         </button>
                     </div>
                     <div class="news-item__subtitle">
-                        <p class="news-item__subtitle-text">3 customizable sprites with accessories and two sets of clothes each.</p>
+                        <p class="news-item__subtitle-text">3 customizable sprites with accessories and two sets of
+                            clothes each.</p>
                     </div>
                     <div class="news-item__price">
                         <p class="news-item__news-item__price-text">
@@ -139,7 +240,8 @@
                         </button>
                     </div>
                     <div class="news-item__subtitle">
-                        <p class="news-item__subtitle-text">A set of video-tutorials on creating sprites, objects and environments.</p>
+                        <p class="news-item__subtitle-text">A set of video-tutorials on creating sprites, objects and
+                            environments.</p>
                     </div>
                     <div class="news-item__price">
                         <p class="news-item__news-item__price-text">
@@ -158,7 +260,8 @@
                         </button>
                     </div>
                     <div class="news-item__subtitle">
-                        <p class="news-item__subtitle-text">19th century locations in daytime light and nighttime (with smooth shadows).</p>
+                        <p class="news-item__subtitle-text">19th century locations in daytime light and nighttime (with
+                            smooth shadows).</p>
                     </div>
                     <div class="news-item__price">
                         <p class="news-item__news-item__price-text">
@@ -180,7 +283,8 @@
                         </button>
                     </div>
                     <div class="news-item__subtitle">
-                        <p class="news-item__subtitle-text">Suits perfectly for interior design projects, VR projects, other purposes.</p>
+                        <p class="news-item__subtitle-text">Suits perfectly for interior design projects, VR projects,
+                            other purposes.</p>
                     </div>
                     <div class="news-item__price">
                         <p class="news-item__news-item__price-text">
@@ -199,7 +303,8 @@
                         </button>
                     </div>
                     <div class="news-item__subtitle">
-                        <p class="news-item__subtitle-text">I've made a one hour video which covers all the basic concepts of making shadows.</p>
+                        <p class="news-item__subtitle-text">I've made a one hour video which covers all the basic
+                            concepts of making shadows.</p>
                     </div>
                     <div class="news-item__price">
                         <p class="news-item__news-item__price-text">
@@ -218,7 +323,8 @@
                         </button>
                     </div>
                     <div class="news-item__subtitle">
-                        <p class="news-item__subtitle-text">Available in digital and paper versions. You'll love these reddish colors.</p>
+                        <p class="news-item__subtitle-text">Available in digital and paper versions. You'll love these
+                            reddish colors.</p>
                     </div>
                     <div class="news-item__price">
                         <p class="news-item__news-item__price-text">

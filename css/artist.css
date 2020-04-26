@@ -121,14 +121,16 @@
 }
 .artist__photo-image {
     /* width: 84%; */
-    width: calc((100vw * 0.2) - 20px);
+    /* width: calc((100vw * 0.2) - 20px); */
+    width: 275px;
+    min-width: 275px;
 }
 .artist__info {
-    width: 25%;
-    display: flex;
+    /* width: 25%; */
+    /* display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 .artist__info-block {
     text-align: center;
@@ -136,24 +138,26 @@
 .artist__name {
 }
 .artist__field {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 .artist__about {
-    width: 50%;
-    display: flex;
+    /* width: 50%; */
+    /* display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
+    align-items: flex-start; */
+    /* padding: 20px; */
     /* background-color: peachpuff; */
 }
 .artist__about-block {
-
+    padding: 20px;
 }
-.artist__title {}
+.artist__title {
+    padding-bottom: 20px;
+}
 .artist__text {
     width: 70%;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 .artist__contact-btn {
     width: 87px;
@@ -167,9 +171,12 @@
     color: var(--basic-white);
     /* margin: 0px 10px 0px 35px; */
     cursor: pointer;
+    margin-top: 10%;
 }
 .artist__contact {
     width: 100%;
+    /* padding-left: 18px; */
+    padding: 0px 0px 0px 40px;
     /* display: flex;
     justify-content: flex-start; */
 }
@@ -188,8 +195,7 @@
     padding: 40px 40px;
 }
 .works__item {
-    width: calc(55% - 20px);
-    height: calc(100vw * 0.2);
+    height: 275px;
     background-color: var(--basic-white);
     background-position: top;
     background-size: cover;
@@ -197,8 +203,9 @@
 }
 .works__item_square {
     /* width: calc(22% - 20px); */
-    width: calc((100vw * 0.2) - 20px);
-    height: calc(100vw * 0.2);
+    /* min-width: 275px; */
+    width: 275px;
+    height: 275px;
     background-color: var(--basic-white);
     /* margin: 10px; */
     background-position: top;
@@ -212,7 +219,7 @@
 
 .title {
     padding-left: 24px;
-    padding-top: 34px;
+    /* padding-top: 34px; */
 }
 
 .news {
