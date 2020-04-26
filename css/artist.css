@@ -185,7 +185,7 @@
     padding: 40px 0px;
 }
 .works__item {
-    width: calc(53%);
+    width: calc(53% - 20px);
     height: calc(100vw * 0.2);
     background-color: var(--basic-white);
     background-position: top;
@@ -193,7 +193,7 @@
     background-repeat: no-repeat;
 }
 .works__item_square {
-    width: calc(22%);
+    width: calc(22% - 20px);
     height: calc(100vw * 0.2);
     background-color: var(--basic-white);
     margin: 10px;
@@ -274,6 +274,7 @@
     background-color: var(--basic-white);
     font-style: normal;
     font-weight: bold;
+    padding-left: 20px;
 }
 .news-item__news-item__price-text {
     text-align: left;
