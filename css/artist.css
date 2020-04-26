@@ -165,13 +165,13 @@
     border: none;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 14px;
+    /* line-height: 22px; */
     background-color: var(--basic-blue);
     color: var(--basic-white);
     /* margin: 0px 10px 0px 35px; */
     cursor: pointer;
-    margin-top: 10%;
+    margin-top: 7%;
 }
 .artist__contact {
     width: 100%;
