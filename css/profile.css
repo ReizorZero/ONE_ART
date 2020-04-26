@@ -111,40 +111,115 @@
 .user-info {
     width: 30%;
     padding: 60px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 }
 .user-info__photo {
-
+    width: 100%;
 }
 .user-info__name {
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     /* text-align: center; */
-    padding-left: 10px;
+    padding-top: 20px;
 }
-.user-info__country {}
+.user-info__country {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.user-info__edit {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.user-info__edit-btn {
+    width: 114px;
+    height: 34px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: var(--basic-blue);
+    color: var(--basic-white);
+    /* margin: 0px 10px 0px 35px; */
+    cursor: pointer;
+}
+.user-info__edit-btn:hover {
+    border: 0.5px solid var(--basic-blue);
+    background-color: var(--basic-white);
+    color: var(--basic-blue);
+}
 
 
 .user-support {
     width: 70%;
+    padding-right: 60px;
 }
-.user-support__theme-img {}
-.user-support__support {}
+.user-support__theme-img {
+    width: 100%;
+}
+
+.user-support__support {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 60px;
+}
+.user-support__text {
+    font-weight: bold;
+}
 .user-support__supportbar {
     width: 80%;
-    height: 5px;
+    height: 7px;
     border-radius: 10px;
     background-color: var(--basic-black);
 }
 .user-support__supportline {
-    width: 60%;
-    height: 5px;
+    width: 5%;
+    height: 7px;
     border-radius: 10px;
     background-color: var(--basic-blue);
 }
-.user-support__additional-info {}
-.user-support__email {}
-.user-support__location {}
+
+.user-support__additional-info {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.user-support__email {
+    /* width: 25%; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0px 160px 0px 60px;
+}
+.user-support__location {
+    /* width: 25%; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0px 60px;
+}
+.user-support__title {
+    
+}
+.user-support__circle {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--basic-blue);
+    margin: 0px 20px;
+}
 
 .news {
     width: 100%;
