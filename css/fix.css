@@ -129,11 +129,26 @@
     width: calc(100vw / 4);
     background-color: var(--basic-white);
     margin: 49px 30px;
-    background-position: top;
-    background-size: contain;
-    /* background-size: auto; */
+    /* background-image: url('../img/news_1.png'); */
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 150px;
+    overflow: visible;
+    height: 400px;
+}
+/* bad style :( */
+.news-item .news-item__date {
+    background-color: var(--basic-white);
+    margin-bottom: 180px;
+}
+.news-item__date-text {
+    font-style: normal;
+    font-weight: bold;
+    /* font-size: 18px;
+    line-height: 24px; */
+}
+.news-item__date-text_accent {
+    color: var(--basic-blue);
 }
 .news-item__title {
     width: 100%;;
@@ -143,7 +158,6 @@
     justify-content: space-between;
     align-content: flex-start;
     padding: 20px;
-    /* padding: 20px 0px 0px 0px; */
 }
 .news-item__title-text {
     font-style: normal;
@@ -171,28 +185,21 @@
     background-color: var(--basic-white);
 }
 .news-item__subtitle-text {
-    padding: 0px 20px 20px 20px;
+    padding: 20px;
 }
-.news-item__price {
-    width: 100%;
-    background-color: var(--basic-white);
-    font-style: normal;
-    font-weight: bold;
-    padding-left: 20px;
-}
-.news-item__news-item__price-text {
-    text-align: left;
-}
-.news-item__news-item__price-text_accent {
-    color: var(--basic-blue);
+
+.news-item .news-item__date {
+    margin-bottom: 305px;
 }
 
 .news-row_major {}
 .news-item_major {
     width: calc(100vw / 2);
+    height: 400px;
 }
 .news-item_major-square {
     width: calc(100vw / 4);
+    height: 400px;
 }
 .news-item_major .news-item__date {
     margin-bottom: 305px;
@@ -200,31 +207,7 @@
 .news-item_major-square .news-item__date {
     margin-bottom: 305px;
 }
-                            
-.go-to {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-.go-to-group {
-}
-.go-to-group__item {
-    background-color: var(--basic-white);
-    color: var(--basic-black);
-    margin: 10px;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-.go-to-group__item:hover {
-    padding: 8px 13px;
-    border: 2px solid var(--basic-blue);
-}
-.go-to-group__item_active {
-    background-color: var(--basic-blue);
-    color: var(--basic-white);
-}
-.go-to-group__item-dots {
 
+.news-item__text-part {
+    background-color: var(--basic-white);
 }
