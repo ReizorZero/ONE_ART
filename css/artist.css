@@ -176,9 +176,31 @@
     color: var(--basic-blue);
 }
 
-.works {}
-.works__item {}
-.works__item_square {}
+.works {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.works__item {
+    width: calc(53%);
+    height: calc(100vw * 0.2);
+    background-color: var(--basic-white);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.works__item_square {
+    width: calc(22%);
+    height: calc(100vw * 0.2);
+    background-color: var(--basic-white);
+    margin: 10px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .title {
     padding-left: 24px;
