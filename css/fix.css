@@ -124,6 +124,7 @@
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    margin-bottom: 50px;
 }
 .news-item {
     width: calc(100vw / 4);
@@ -192,7 +193,9 @@
     margin-bottom: 305px;
 }
 
-.news-row_major {}
+.news-row_major {
+    margin-bottom: 50px;
+}
 .news-item_major {
     width: calc(100vw / 2);
     height: 400px;
