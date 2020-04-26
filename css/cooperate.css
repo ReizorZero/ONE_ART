@@ -127,7 +127,7 @@
 }
 .news-item {
     width: calc(100vw / 4);
-    background-color: grey;
+    background-color: var(--basic-white);
     margin: 49px 30px;
     /* background-image: url('../img/news_1.png'); */
     /* background-position: center;
@@ -151,6 +151,10 @@
     font-weight: bold;
     /* font-size: 32px;
     line-height: 38px; */
+    cursor: pointer;
+}
+.news-item__title-text:hover {
+    color: var(--basic-blue);
 }
 .news-item__bookmark-btn {
     background-color: transparent;

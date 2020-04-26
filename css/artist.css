@@ -198,7 +198,7 @@
 }
 .news-item {
     width: calc(100vw / 4);
-    background-color: grey;
+    background-color: var(--basic-white);
     margin: 49px 30px;
     background-position: top;
     /* background-size: contain; */

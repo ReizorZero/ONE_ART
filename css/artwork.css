@@ -116,16 +116,69 @@
     padding-top: 3%;
     padding-right: 2%;
 }
-.artwork-info__author {}
-.artwork-info__name {}
+.artwork-info__author {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.artwork-info__name {
+    padding-bottom: 10%;
+}
 
-.buy {}
-.buy__price {}
-.buy__price-accent {}
-.buy__buy-btn {}
-.buy__buy-icon {}
-.buy__buy-text {}
+.buy {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80%;
+}
+.buy__price {
+    font-weight: bold;
+    font-size: 18px;
+}
+.buy__price-accent {
+    font-weight: bold;
+    color: var(--basic-blue);
+    font-size: 18px;
+}
+.buy__buy-btn {
+    width: 87px;
+    height: 34px;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: var(--basic-blue);
+    /* margin: 0px 10px 0px 35px; */
+    cursor: pointer;
+}
+.buy__buy-btn:hover {
+    border: 0.5px solid var(--basic-blue);
+    background-color: var(--basic-white);
+    color: var(--basic-blue);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.buy__buy-btn:hover .buy__buy-text{
+    color: var(--basic-blue);
+}
+.buy__buy-icon {
+    width: 19px;
+    height: 19px;
+}
+.buy__buy-text {
+    color: var(--basic-white);
+    padding: 2px;
+}
 
 .add {}
-.add__title {}
+.add__title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
 .add__text {}
